@@ -292,7 +292,7 @@ hands-on-l11-aws-ecommerce/
 
 ### Screenshot Placeholders
 1. **CloudWatch Logs** – `/aws-glue/crawlers`  
-   ![CloudWatch Screenshot Placeholder](screenshots/cloudwatch_crawler.png)
+   ![CloudWatch Screenshot Placeholder](screenshots/cloudwatch_crawler2.png)
 2. **IAM Role (`HandsOnRole`)** – attached policies  
    ![IAM Role Screenshot Placeholder](screenshots/iam_role.png)
 3. **S3 Bucket Structure** – `raw/` and `processed/`  
