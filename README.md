@@ -1,11 +1,11 @@
-## AWS Core Services (S3, Glue, CloudWatch, Athena)
+# AWS E-Commerce Analytics Pipeline (S3 • Glue • Athena)
 
 ---
 
 ## 📘 Overview
 
-This project demonstrates a complete AWS data analysis pipeline using the **E-Commerce Sales Dataset** from Kaggle.  
-The pipeline integrates multiple AWS services to load, catalog, query, and monitor e-commerce sales data.
+This project implements a complete AWS-based data analytics pipeline for processing and analyzing an E-Commerce Sales Dataset (from Kaggle).
+The pipeline demonstrates how key AWS services, S3, Glue, Athena, and CloudWatch, can be integrated to create a scalable, serverless, and cost-effective analytics workflow.
 
 ---
 
@@ -280,18 +280,22 @@ LIMIT 10;
 aws-ecommerce-analytics-s3-glue-athena-pipeline/
 ├── README.md
 ├── queries/
-    ├── queries.sql
-└── results/
-    ├── q1_cumulative_sales.csv
-    ├── q2_unprofitable_hotspots.csv
-    ├── q3_discount_vs_profitability.csv
-    ├── q4_top3_by_category.csv
-    └── q5_monthly_growth.csv
+│   └── queries.sql
+├── results/
+│   ├── q1_cumulative_sales.csv
+│   ├── q2_unprofitable_hotspots.csv
+│   ├── q3_discount_vs_profitability.csv
+│   ├── q4_top3_by_category.csv
+│   └── q5_monthly_growth.csv
+└── screenshots/
+    ├── cloudwatch_crawler2.png
+    ├── iam_role.png
+    └── s3_bucket.png
 ```
 
 ---
 
-### Screenshot Placeholders
+### AWS Service Screenshots
 1. **CloudWatch Logs** – `/aws-glue/crawlers`  
    ![CloudWatch Screenshot Placeholder](screenshots/cloudwatch_crawler2.png)
 2. **IAM Role (`HandsOnRole`)** – attached policies  
