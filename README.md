@@ -288,6 +288,7 @@ aws-ecommerce-analytics-s3-glue-athena-pipeline/
 │   ├── q4_top3_by_category.csv
 │   └── q5_monthly_growth.csv
 └── screenshots/
+    ├── crawler.png
     ├── cloudwatch_crawler2.png
     ├── iam_role.png
     └── s3_bucket.png
@@ -296,11 +297,14 @@ aws-ecommerce-analytics-s3-glue-athena-pipeline/
 ---
 
 ### AWS Service Screenshots
-1. **CloudWatch Logs** – `/aws-glue/crawlers`  
-   ![CloudWatch Screenshot Placeholder](screenshots/cloudwatch_crawler2.png)
-2. **IAM Role (`HandsOnRole`)** – attached policies  
-   ![IAM Role Screenshot Placeholder](screenshots/iam_role.png)
-3. **S3 Bucket Structure** – `raw/` and `processed/`  
+1. **S3 Bucket Structure** – `raw/` and `processed/`  
    ![S3 Bucket Screenshot Placeholder](screenshots/s3_bucket.png)
+2. **IAM Role (`HandsOnRole`)** – attached policies  
+   ![IAM Role Screenshot Placeholder](screenshots/iam_role.png)   
+3. **Crawler** – `/aws-glue/crawlers`  
+   ![CloudWatch Screenshot Placeholder](screenshots/crawler.png)
+4. **CloudWatch Logs** – `CloudWatch logs`  
+   ![CloudWatch Screenshot Placeholder](screenshots/cloudwatch.png)
+
 
 ---
