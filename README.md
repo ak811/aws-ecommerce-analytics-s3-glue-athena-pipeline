@@ -35,7 +35,7 @@ ARN: `arn:aws:iam::079806632855:role/HandsOnRole`
 
 ### 1️⃣ Configure Amazon S3
 - Created bucket: `handson-l11-cloud-computing`
-- Uploaded dataset: `Amazon Sale Report.csv` → `raw/` folder
+- Uploaded dataset: `Amazon_Sale_Report.csv` → `raw/` folder
 
 ### 2️⃣ Create IAM Role
 - Role name: `HandsOnRole`
