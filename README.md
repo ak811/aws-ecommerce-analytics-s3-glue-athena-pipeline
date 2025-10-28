@@ -277,9 +277,10 @@ LIMIT 10;
 ## 📁 Repository Structure
 
 ```
-hands-on-l11-aws-ecommerce/
+aws-ecommerce-analytics-s3-glue-athena-pipeline/
 ├── README.md
-├── queries_handson_l11.sql
+├── queries/
+    ├── queries.sql
 └── results/
     ├── q1_cumulative_sales.csv
     ├── q2_unprofitable_hotspots.csv
