@@ -1,6 +1,3 @@
--- ITCS 6190/8190 Hands-on L11: Athena Queries
-USE "handson11-output-db";
-
 -- Q1: Cumulative Sales Over Time (Year = 2022) — LIMIT 10
 WITH base AS (
   SELECT COALESCE(try(date_parse("Date", '%m/%d/%Y')), try(date_parse("Date", '%m-%d-%y')), try(date_parse("Date", '%m/%d/%y'))) AS order_dt,
